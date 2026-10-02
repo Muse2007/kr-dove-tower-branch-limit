@@ -1,0 +1,19 @@
+# 编辑器 / 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# 本体的插件打包会跳过这些目录，这里也一并忽略
+.backup/
+.tmp/
+.git/
+cover.*
+
+# 测试产生的临时产物
+*.log
